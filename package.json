@@ -1,19 +1,18 @@
 {
   "name": "react-tac-toe",
-  "version": "1.0.0",
-  "description": "A simple Tic Tac Toe game built with React. Allows expansion of the board to as many squares as desired.",
-  "main": "app.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Jantho1990/react-tac-toe.git"
-  },
-  "author": "Josh Anthony",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jantho1990/react-tac-toe/issues"
-  },
-  "homepage": "https://github.com/Jantho1990/react-tac-toe#readme"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
